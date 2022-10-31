@@ -34,7 +34,8 @@ for i = 1, self.TotalPoints do
     local noiseOffset = get3DNoise( noiseConfig.Seed, pos + noiseConfig.Position, noiseConfig.MapScale, noiseConfig.Amplitude )
     --print(i, noiseOffset)
     table.insert(self.Vec3Points, pos + noiseOffset)
-end```
+end
+```
 
 Vector Fields
 https://gyazo.com/e71269190a373fc52f5f2e4dfa19be05
